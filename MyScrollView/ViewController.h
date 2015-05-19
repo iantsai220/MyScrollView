@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyScrollView.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic) MyScrollView *scrollView;
+
+
 
 
 @end
